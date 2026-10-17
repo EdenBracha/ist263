@@ -23,3 +23,12 @@ nav a:hover {
 .copyright {float: left;}
 .quote {float: right;}
 .clear {clear: both;}
+
+.row {display: flex; margin: 20px;}
+.col {flex: 1; background-color: #e6f0ff; border-radius: 1em; padding: 20px; margin: 10px;}
+
+.col iframe {width: 100%; height: 300px; border: 0; border-radius: 1em;}
+.col input, .col textarea {width: 100%; box-sizing: border-box; padding: 8px; margin-bottom: 10px; border: 1px solid #cccccc; border-radius: 5px;}
+.col label {display: block; margin-top: 10px; font-weight: bold;}
+.col button {background-color: #2C3E50; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 5px;}
+.col button:hover {background-color: #1E6FD9;}
