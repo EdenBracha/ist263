@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, Helvetica, Sans-serif;
+  margin: 0;
+  color: #12633;
+  background-color: #FFFFFF;
+}
+a {color: #1E2633; text-decoration: none;}
+
+nav { 
+display: flex;
+  justify-sontent: space-between;
+  padding: 15px 20px;
+  border-bottom: 1px solid #CCCCCC;
+}
+#logo {font-weight: bold; font-size: 1.2em;}
+#navlinks a {margin: 0 10px;}
+#nextdropbutton {background-color: #1E2633; color: #FFFFFF; padding: 8px 14px; border-radius: 5px;}
+
+main{text-align: center;}
+#hostsphoto {width: 50%;}
+
