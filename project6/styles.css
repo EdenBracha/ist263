@@ -1,14 +1,14 @@
 body {
   font-family: Arial, Helvetica, Sans-serif;
   margin: 0;
-  color: #12633;
+  color: #1E2633;
   background-color: #FFFFFF;
 }
 a {color: #1E2633; text-decoration: none;}
 
 nav { 
 display: flex;
-  justify-sontent: space-between;
+  justify-content: space-between;
   padding: 15px 20px;
   border-bottom: 1px solid #CCCCCC;
 }
