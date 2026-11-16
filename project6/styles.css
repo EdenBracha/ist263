@@ -33,4 +33,13 @@ footer {display: flex; padding: 20px;}
 #footer1 a, #footer2 a, #footer3 a, #footer4 a {display: block; color: #666666; font-size: 0.9em;}
 footer h3 {font-size: 1em;}
 
+@media (max-width: 800px) {
+  nav {flex-wrap: wrap;}
+  header h1 {font-size: 3em;}
+  #hostsphoto {width: 90%;}
+  #nextdrop {width: 90%;}
+  footer {flex-wrap: wrap;}
+  #footerlogo, #footer1, #footer2, #footer3, #footer4 {flex-basis: 100%;}
+}
+
 
