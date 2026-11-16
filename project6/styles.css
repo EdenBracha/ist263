@@ -10,7 +10,6 @@ nav {
 display: flex;
   justify-content: space-between;
   padding: 15px 20px;
-  border-bottom: 1px solid #CCCCCC;
 }
 #logo {font-weight: bold; font-size: 1.2em;}
 #navlinks a {margin: 0 10px;}
@@ -18,4 +17,20 @@ display: flex;
 
 main{text-align: center;}
 #hostsphoto {width: 50%;}
+
+header {text-align: center; padding: 30px 20px;}
+#socials a {border: 1px solid #1E2633; border-radius: 20px; padding: 6px 12px; margin:0 5px;}
+header h1 {font-size: 5em; letter-spacing: 0.1em; margin: 20px 0;}
+header p{text-transform: uppercase; letter-spacing: 0.2em;}
+#watchbutton {background-color: #1E2633; color: #FFFFFF; padding: 10px 20px;}
+
+#nextdrop {background-color: #E5E7EB; border: 1px solid #1E2633; width: 80%; margin: 30px auto;}
+#nextdrop h2 {font-size: 1.2em; font-weight: normal;}
+
+footer {display: flex; padding: 20px;}
+#footerlogo {flex: 1; font-weight: bold;}
+#footer1, #footer2, #footer3, #footer4 {flex:1;}
+#footer1 a, #footer2 a, #footer3 a, #footer4 a {display: block; color: #666666; font-size: 0.9em;}
+footer h3 {font-size: 1em;}
+
 
