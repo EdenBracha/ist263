@@ -32,3 +32,17 @@ nav a:hover {
 .col label {display: block; margin-top: 10px; font-weight: bold;}
 .col button {background-color: #2C3E50; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 5px;}
 .col button:hover {background-color: #1E6FD9;}
+
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
